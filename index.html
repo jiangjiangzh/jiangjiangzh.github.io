@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My blog</title>
+		<style type="text/css"></style>
+		<style>
+			#header{
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				background-color: #BBFF00;
+				width: 100%;
+				height: 15%;
+				color: white;
+				font-weight: 900;
+				font-family: fantasy;
+				font-size: 60px;
+				line-height: 100px;
+			}
+			#sidebar{
+				position: fixed;
+				top: 15vh;
+				left: 0px;
+				background-color:#A1FFA1;
+				width: 20%;
+				height: 78%;
+				margin-bottom: 1px;
+			}
+			#content{
+				position: fixed;
+				top: 15vh;
+				right: 0px;
+				width: 80%;
+				height: 78%;
+				background-color: #FFFF6E;
+				margin-bottom: 1px;
+				overflow: auto;
+				
+			}
+			#showbox{
+				position: fixed;
+				left: : 0px;
+				bottom: 0px;
+				background-color: #FFEE99;
+				height: 7%;
+				width: 100%;
+				margin-top: 1px;
+				text-align: right;
+				line-height: 40px;
+			}
+		</style>
+	</head>
+	<script language="JavaScript">
+		function ShowTime(){
+	　 		document.getElementById('showbox').innerHTML = new Date();
+	　  		setTimeout('ShowTime()',1000);
+		}
+	</script>
+	<body onload="ShowTime()">
+		<div id="header">&nbsp;&nbsp;&nbsp;HERE IS ME&nbsp;!</div>
+		<div id="middle">
+			<div id="sidebar">
+			<p>
+				<ul>
+					<li style="list-style-type: none; font-family: cursive; margin-bottom: 60px;"><a href="#about_me" style="text-decoration:none; color:white; text-shadow: black 0.1em 0.08em 0.2em; font-size: 32px;">About&nbsp;me</a></li>
+					<li style="list-style-type: none; font-family: cursive; margin-top: 60px;"><a href="#education" style="text-decoration:none; color:white; text-shadow: black 0.1em 0.08em 0.2em; font-size: 32px;">Education</a></li>
+					<li style="list-style-type: none; font-family: cursive; margin-top: 60px;"><a href="#Interest" style="text-decoration:none; color:white; text-shadow: black 0.1em 0.08em 0.2em; font-size: 32px; text-align: center;">Things I Love</a></li>
+					<li style="list-style-type: none; font-family: cursive; margin-top: 60px;"><a href="#Awards" style="text-decoration:none; color:white; text-shadow: black 0.1em 0.08em 0.2em; font-size: 32px;">Awards</a></li>
+				</ul>
+			</p>
+			</div>
+		<div id="content">
+			<a name="about_me">
+			<p>
+				<span style="float: left; margin-left: 12px;"><img src="https://lh3.googleusercontent.com/iAZF8-6vUICPh-I7e0g1To2tmOtegkKcZuexpleUVPCoGGmTwFp0XOFLibyB4xgbcboXuRei95q5Qv35rWhh=w1366-h657-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="目前顯示的是「個人成發照.JPG」" aria-hidden="true" width="440px" height="300px"></span>
+			</p>
+			<p style="text-align:center; font-size:40px; color: #006400; font-family:fantasy; height: 10px; line-height: 10px; text-shadow: 0 0 0.15em #006400;">About Me</p>
+			<span style="float: left; font-size: 28px; font-family:fantasy; color: black; line-height: 40px;">
+				<ul>
+					<li>Name:&nbsp;&nbsp;&nbsp;江子涵</li>
+					<li>Birthday:&nbsp;&nbsp;&nbsp;2000.11.20</li>
+					<li>Star Sign:&nbsp;&nbsp;&nbsp;Scorpio</li>
+					<li>Hometown:&nbsp;&nbsp;&nbsp;Taichung,&nbsp;Taiwan</li>
+					<li>Email:&nbsp;&nbsp;&nbsp;evatiffany642021@gmail.com</li>
+				</ul>
+			</span>
+			<div style="clear: both;"></div>
+			<div style="text-align: center;">
+				<a href="https://www.facebook.com/profile.php?id=100012090828311">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/600px-F_icon.svg.png" width="40px" height="40px" style="display: inline; margin-right: : 20px; margin-top: 20px;">
+				</a>
+				<a href="https://www.instagram.com/jiangjiangzh/?hl=zh-tw">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png" width="40px" height="40px" style="display: inline; margin-left: 20px; margin-top: 20px;">
+				</a>
+				<span style="height: 64px; line-height: 64px; color: #9932CC; font-family: cursive;"><--&nbsp;click&nbsp;it&nbsp;!</span>
+			</div>
+			<div style="height: 80px"></div>
+			<a name="education">
+			<div>
+				<p style="text-align:center; font-size:40px; color: #006400; font-family:fantasy; height: 10px; line-height: 10px; text-shadow: 0 0 0.15em #006400;">Education</p>
+				<p>
+					<ul style="text-align: center; list-style-type: none; font-family:fantasy; color: black; font-size:28px;">
+						<li>- National Tsing Hua University &nbsp;(2019 ~</li>
+						<li>Interdisciplinary Program of Electrical Engineering and Computer Science, EECS</li>
+						<li>- Taichung Municipal Taichung Girls Senior High School &nbsp;(2016 ~2019)</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</p>
+			</div>
+			<div style="height: 100px;"></div>
+			<a name="Interest">
+			<div style="font-family:fantasy;">
+				<p style="text-align:center; font-size:40px; color: #006400; font-family:fantasy; height: 10px; line-height: 10px; text-shadow: 0 0 0.15em #006400;">Things&nbsp;&nbsp;I&nbsp;&nbsp;Love</p>
+				<div style="padding-left: 450px; font-family: fantasy; color: black; font-size:28px;">
+					<ol>
+						<li>penguin !</li>
+						<li>percussion !</li>
+						<li>penguin</li>
+						<li>penguin</li>
+						<li>penguin</li>
+					</ol>
+				</div>
+				<p style="text-align: center; font-size:40px; "><a href="https://imgs.niusnews.com/upload/posts/po5_28486_1417764723.jpg">It's ME!</a></p>
+				<p>
+					<span></span>
+					<span></span>
+					<span></span>
+				</p>
+			</div>
+			<div style="height: 100px;"></div>
+			<a name="Awards">
+			<div>
+				<p style="text-align:center; font-size:40px; color: #006400; font-family:fantasy; height: 10px; line-height: 10px; text-shadow: 0 0 0.15em #006400;">Awards</p>
+			</div>
+		</div>
+		
+		<div style="clear: both;"></div>
+		<div id="showbox"></div>
+	</body>
+</html>
